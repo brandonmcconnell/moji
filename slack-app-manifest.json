@@ -1,0 +1,19 @@
+{
+  "display_information": {
+    "name": "Emoji",
+    "description": "Shares this workspace's custom emoji with the Emoji browser extension.",
+    "background_color": "#1c1917"
+  },
+  "oauth_config": {
+    "redirect_urls": [],
+    "scopes": {
+      "user": ["emoji:read"]
+    },
+    "pkce_enabled": true
+  },
+  "settings": {
+    "org_deploy_enabled": true,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": false
+  }
+}

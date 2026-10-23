@@ -1,0 +1,25 @@
+{
+  "name": "emoji",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-browser extension that brings Slack, Discord, and Teams custom emoji onto the sites you choose.",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "emojibase-data": "^17.0.0",
+    "happy-dom": "^20.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0",
+    "wxt": "^0.21.4"
+  }
+}
